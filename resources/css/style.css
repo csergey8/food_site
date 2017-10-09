@@ -125,6 +125,53 @@ i {
     width: 1140px;
 }
 
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    margin: 0;
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.section-meals {
+    margin-top: -70px;
+    padding: 0;
+}
+
+figure {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.meals-showcase figure {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meals-showcase li img {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    opacity: 0.5;
+    transform: scale(1.15);
+    transition: transform 0.3s, opacity 0.5s;
+}
+
+.meals-showcase li img:hover {
+    opacity: 1;
+    transform: scale(1.07);
+}
+
 .logo {
     height: 100px;
     float: left;
