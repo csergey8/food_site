@@ -340,6 +340,81 @@ cite img {
 }
 
 
+/*---------------Sign Up--------------------------------*/
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 5%;
+    -webkit-box-shadow: 5px 5px 8px -4px rgba(84, 81, 84, 1);
+    -moz-box-shadow: 5px 5px 8px -4px rgba(84, 81, 84, 1);
+    box-shadow: 5px 5px 8px -4px rgba(84, 81, 84, 1);
+}
+
+.plan-box h6 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.plan-box a {
+    margin-bottom: 0;
+}
+
+.plan-box .btn {
+    margin-top: 15px;
+}
+
+.plan-price {
+    margin-bottom: 0;
+    color: #e67e22;
+    font-weight: 100;
+    font-size: 48px;
+}
+
+.plan-price span {
+    font-size: 24px;
+}
+
+.plan-price-meals {
+    margin-bottom: 10px;
+}
+
+.plan-box div {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+div.sign-btn {
+    text-align: center;
+    border-bottom: none;
+}
+
+.plan-box ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.plan-box li {
+    list-style: none;
+    line-height: 1px;
+}
+
+.plan-box li i {
+    font-size: 80%;
+    margin: 0;
+    line-height: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 /* ------------------ NAV ------------------------------*/
 
 .logo {
