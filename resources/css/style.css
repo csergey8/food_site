@@ -415,6 +415,43 @@ div.sign-btn {
 }
 
 
+/*-------------------Contact Form------------------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-form span {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+label {
+    font-weight: 100;
+    font-size: 70%;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+
 /* ------------------ NAV ------------------------------*/
 
 .logo {
@@ -474,6 +511,28 @@ div.sign-btn {
     text-decoration: none;
     text-transform: uppercase;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type=submit] {
+    display: inline-block;
+    border-radius: 200px !important;
+    font-size: 20px;
+    appearance: none;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type=submit]:hover {
+    font-weight: 100;
+    background-color: #cf6d17;
+    border: 1px solid #cf6d17;
+    color: #fff;
 }
 
 .btn:hover,
