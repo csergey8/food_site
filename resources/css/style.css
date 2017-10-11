@@ -53,13 +53,7 @@ a:hover {
 }
 
 
-/*----------------------------------------------------------------*/
-
-
 /*------------------Header-----------------------------------*/
-
-
-/*----------------------------------------------------------------*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/hero.jpg');
@@ -492,13 +486,76 @@ input[type=checkbox] {
 }
 
 
-/*----------------------------------------------------------------*/
+/*------------------FOOTER------------------------------------*/
+
+footer {
+    background-color: #333;
+}
+
+footer li {
+    margin-bottom: 0;
+}
+
+.footer-nav {
+    list-style: none;
+    font-size: 50%;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.social-links i {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:active {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: none;
+}
+
+footer ul {
+    margin-bottom: 10px;
+}
+
+.social-links li a:link,
+.social-links li a:active {
+    border-bottom: none;
+    color: #fffddd;
+}
+
+.footer-nav li {
+    font-size: 150%;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.social-links li {
+    font-size: 8px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.copy {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #555
+}
 
 
 /*------------------BUTTONS-----------------------------------*/
-
-
-/*----------------------------------------------------------------*/
 
 .btn:link,
 .btn:visited {
