@@ -652,6 +652,10 @@ input[type=submit]:hover {
     color: #fff;
 }
 
+#email {
+    font-weight: 100;
+}
+
 .btn:hover,
 .btn:active {
     background-color: #cf6d17;
@@ -681,4 +685,39 @@ input[type=submit]:hover {
 .btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
+}
+
+
+/*---------------Animations-------------------*/
+
+.js--wp-1 {
+    opacity: 0;
+}
+
+.js--wp-1.animated {
+    opacity: 1;
+}
+
+.js--wp-2 {
+    opacity: 0;
+}
+
+.js--wp-2.animated {
+    opacity: 1;
+}
+
+.js--wp-3 {
+    opacity: 0;
+}
+
+.js--wp-3.animated {
+    opacity: 1;
+}
+
+.js--wp-4 {
+    opacity: 0;
+}
+
+.js--wp-4.animated {
+    opacity: 1;
 }
