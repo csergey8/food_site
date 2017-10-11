@@ -458,11 +458,18 @@ input[type=checkbox] {
 
 /* ------------------ NAV ------------------------------*/
 
-.logo {
+.logo,
+.logo-black {
     height: 100px;
     float: left;
     width: auto;
     margin-top: 20px;
+}
+
+.logo-black {
+    height: 50px;
+    margin: 5px;
+    display: none;
 }
 
 .main-nav {
@@ -494,6 +501,44 @@ input[type=checkbox] {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+
+/*------------Sticky nav --------------------*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    z-index: 2;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    text-decoration: none;
+    height: 60px;
+    color: #555;
+}
+
+.sticky ul.main-nav {
+    margin: 0;
+}
+
+.sticky img.logo {
+    margin: 0;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
 }
 
 
