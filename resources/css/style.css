@@ -504,6 +504,67 @@ input[type=checkbox] {
 }
 
 
+/*-----------------Mobile nav----------------------*/
+
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 150%;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:link.mobile-nav-icon,
+a:active.mobile-nav-icon {
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-right: 30px;
+    }
+    .main-nav {
+        float: left;
+        display: none;
+    }
+    h1 {
+        display: none;
+    }
+    .hero-text-box a.btn:first-of-type {
+        margin-left: 30%;
+    }
+    .main-nav li {
+        display: block !important;
+        float: none !important;
+        line-height: 0;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        text-decoration: none;
+        height: 60px;
+    }
+    .sticky ul.main-nav {
+        margin: 0;
+        margin-top: 10px !important;
+    }
+    .sticky img.logo {
+        margin: 0;
+        height: 50px;
+        padding-top: 5px;
+    }
+    .sticky .mobile-nav-icon i {
+        margin-top: 5px;
+        color: #555;
+    }
+}
+
+
 /*------------Sticky nav --------------------*/
 
 .sticky {

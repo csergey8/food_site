@@ -73,5 +73,10 @@ $(document).ready(function() {
     });
 
 
+    $('.js--nav-icon').click(function() {
+        if ()
+            $('.main-nav').slideToggle(200);
+    });
+
 
 });
