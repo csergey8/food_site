@@ -524,6 +524,109 @@ a:active.mobile-nav-icon {
     border-bottom: none;
 }
 
+/*------- Media Queries -------------*/
+@media only screen and (max-width: 1278px) {
+    .main-nav li {
+        display: inline-block;
+        float: left;
+        margin-left: 20px;
+        position: relative;
+        right: 20px;
+    }
+
+    .social-links {
+        position: relative;
+        right: 20px;
+    }
+
+    .hero-text-box {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1113px) {
+    .hero-text-box h1 {
+        font-size: 36px;
+    }
+
+    .hero-text-box {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 1032px) {
+    .plan-box li {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    .sign-btn .btn:link {
+        font-size: 15px;
+    }
+
+    .plan-price-meals {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .plan-box li {
+        font-size: 14px;
+    }
+
+    .box {
+        font-size: 15px;
+    }
+
+    .box p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 905px) {
+    .plan-price {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 895px) {
+    .hero-text-box {
+        width: 700px;
+    }
+
+    .works-step p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 849px) {
+    .box {
+        font-size: 13px;
+    }
+
+    .sign-btn .btn:link {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .plan-box h6 {
+        text-align: center;
+    }
+    .plan-price {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .plan-price-meals {
+        font-size: 11px;
+    }
+
+    .footer-nav {
+        font-size: 37% !important;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .mobile-nav-icon {
         display: inline-block;
@@ -537,7 +640,7 @@ a:active.mobile-nav-icon {
         display: none;
     }
     .hero-text-box a.btn:first-of-type {
-        margin-left: 30%;
+        margin-left: 14%;
     }
     .main-nav li {
         display: block !important;
@@ -561,6 +664,150 @@ a:active.mobile-nav-icon {
     .sticky .mobile-nav-icon i {
         margin-top: 5px;
         color: #555;
+    }
+
+    .hero-text-box {
+        /* width: 800px; */
+        max-width: none;
+        width: 516px;
+    }
+
+    .section-testimonials h2 {
+        font-size: 25px;
+    }
+
+    .section-testimonials blockquote {
+        font-size: 13px;
+    }
+
+    .container-cities h3 {
+        font-size: 19px;
+    }
+
+    .section-plans {
+        padding: 40px 0;
+    }
+
+    .plan-box li {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .section-features {
+        padding: 40px 0;
+    }
+
+    .section-features h3 {
+        font-size: 14px;
+    }
+
+    .long-copy {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .section-steps h2 {
+        font-size: 24px;
+    }
+    .section-steps {
+        padding: 40px 0;
+    }
+
+    .works-step p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 683px) {
+    .meals-showcase {
+        display: none;
+    }
+
+    .container-cities h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .box {
+        font-size: 11px;
+    }
+
+    .section-cities {
+        padding: 30px 0;
+    }
+
+    .app-screen {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .sign-btn .btn:link {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 604px) {
+    .three i {
+        margin-left: 48%;
+    }
+
+    .three h3 {
+        margin: 0;
+    }
+
+    .three .columns .box {
+        padding: 0;
+    }
+
+    .section-features {
+        padding: 0;
+        margin-bottom: 90px;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .city-feature {
+        margin: 0 auto;
+    }
+
+    .plan-box {
+        margin-bottom: 10px;
+    }
+
+    .section-cities {
+        display: none;
+    }
+
+    .section-testimonials {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 549px) {
+    .app-screen {
+        width: 40%;
+    }
+
+    .steps-box:first-child {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .hero-text-box {
+        width: 200px;
+    }
+
+    .hero-text-box .btn:link {
+        margin-left: 0 !important;
+        font-size: 14px !important;
+        width: 100%;
+        text-align: center;
     }
 }
 
