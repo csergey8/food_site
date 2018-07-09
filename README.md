@@ -1,4 +1,3 @@
-# food_site
-Just simple landing site for train.
-*NOT PIXEL PERFECT|||*
-*NO RESPONSIVE*
+# Omnifood HTML CSS
+Landing page of food site. Responsive. No css preprocessor
+
